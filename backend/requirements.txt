@@ -1,0 +1,6 @@
+fastapi==0.162.0
+pydantic==2.14.1
+pydantic-settings==2.16.1
+httpx==0.28.1
+uvicorn==0.54.0
+hindsight-client==1.1.0

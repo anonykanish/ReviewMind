@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "--basetemp=.tmp_pytest -p no:cacheprovider"
+markers = ["live: requires real configured external services and writes to an isolated Hindsight bank"]
+

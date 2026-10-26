@@ -1,0 +1,27 @@
+{
+  "name": "reviewmind-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "format": "prettier --write src package.json tsconfig.json",
+    "format:check": "prettier --check src package.json tsconfig.json"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.2.3",
+    "prettier": "3.6.2",
+    "typescript": "5.9.3"
+  }
+}
